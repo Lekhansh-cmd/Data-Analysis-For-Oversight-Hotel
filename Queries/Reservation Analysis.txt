@@ -1,0 +1,40 @@
+WITH latest_reservations AS (
+    SELECT
+        number,
+        status,
+        Tag AS hotel,
+        LOWER(REGEXP_REPLACE(travel_agency, r'[^a-zA-Z0-9\s]', '')) AS standardized_travel_agency,
+        customer_nationality as country,
+        total_amount,
+        ROW_NUMBER() OVER (PARTITION BY number ORDER BY updated DESC) AS rn
+    FROM
+        `oversight-da-432212.Assignment.data_source`
+    WHERE
+        arrival BETWEEN '2024-02-01' AND '2024-02-29' 
+)
+SELECT
+    hotel,
+    CASE
+        WHEN standardized_travel_agency LIKE '%booking%' THEN 'Booking.com'
+        WHEN standardized_travel_agency LIKE '%expedia%' THEN 'Expedia Group'
+        WHEN standardized_travel_agency LIKE '%agoda%' THEN 'Agoda'
+        WHEN standardized_travel_agency LIKE '%hrs%' THEN 'HRS'
+
+
+        -- Add more conditions as needed for other travel agencies
+        ELSE standardized_travel_agency
+    END AS travel_agency,
+    
+    country,
+    COUNT(*) AS reservation_count,
+    SUM(total_amount) AS total_revenue
+FROM
+    latest_reservations
+WHERE
+    rn = 1 AND
+    (standardized_travel_agency IS NOT NULL AND country IS NOT NULL)
+    AND status <> 'Canceled'
+GROUP BY
+    hotel, travel_agency, country
+ORDER BY
+    hotel, total_revenue DESC, reservation_count DESC

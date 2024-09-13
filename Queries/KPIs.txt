@@ -1,0 +1,68 @@
+WITH latest_reservations AS (
+    SELECT
+        *,
+        ROW_NUMBER() OVER (PARTITION BY number ORDER BY updated DESC) AS rn
+    FROM
+        `oversight-da-432212.Assignment.data_source`
+    WHERE
+        EXTRACT(YEAR FROM arrival) = 2024 AND EXTRACT(MONTH FROM arrival) = 2
+),
+-- Create a series of dates for each reservation
+expanded_reservations AS (
+    SELECT
+        Tag AS hotel,
+        DATE(arrival) AS start_date,
+        DATE(departure) AS end_date,
+        total_amount
+    FROM
+        latest_reservations
+    WHERE
+        rn = 1 AND status <> 'Canceled'
+),
+-- Generate all dates in February 2024
+date_series AS (
+    SELECT
+        DATE_ADD(DATE('2024-02-01'), INTERVAL i DAY) AS date
+    FROM
+        UNNEST(GENERATE_ARRAY(0, 28)) AS i
+),
+-- Expand each reservation into a series of dates
+daily_data AS (
+    SELECT
+        e.hotel,
+        d.date,
+        COUNT(*) AS rooms_sold,
+        SUM(e.total_amount) AS total_revenue
+    FROM
+        expanded_reservations e
+    JOIN
+        date_series d
+    ON
+        d.date >= e.start_date AND d.date < e.end_date
+    GROUP BY
+        e.hotel, d.date
+),
+-- Define total rooms available for each hotel
+total_rooms AS (
+    SELECT
+        'VSE' AS hotel, 48 AS total_rooms
+    UNION ALL
+    SELECT
+        'HAC' AS hotel, 35 AS total_rooms
+    UNION ALL
+    SELECT
+        'LTH' AS hotel, 72 AS total_rooms
+)
+SELECT
+    d.hotel,
+    d.date,
+    d.rooms_sold,
+    t.total_rooms,
+    (d.rooms_sold / t.total_rooms) * 100 AS occupancy_rate,
+    d.total_revenue,
+    SAFE_DIVIDE(d.total_revenue, d.rooms_sold) AS adr,
+    SAFE_DIVIDE(d.total_revenue, t.total_rooms) AS revpar
+FROM
+    daily_data d
+JOIN
+    total_rooms t ON d.hotel = t.hotel;

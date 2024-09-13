@@ -1,0 +1,26 @@
+WITH anticipation AS (
+    SELECT
+        Tag AS hotel,
+        status,
+        DATE(created) AS created_date,
+        DATE(arrival) AS arrival_date,
+        DATE_DIFF(arrival, created, DAY) AS anticipation_days,
+        ROW_NUMBER() OVER (PARTITION BY number ORDER BY updated DESC) as rn
+    FROM
+        `oversight-da-432212.Assignment.data_source`
+    WHERE
+        arrival BETWEEN '2024-02-01' AND '2024-02-29'
+)
+SELECT
+    hotel,
+    created_date,
+    arrival_date,
+    AVG(anticipation_days) AS avg_anticipation_days
+FROM
+    anticipation
+where
+    rn = 1 AND status <> 'Canceled'
+GROUP BY
+    hotel, created_date, arrival_date
+ORDER BY
+    hotel, arrival_date
