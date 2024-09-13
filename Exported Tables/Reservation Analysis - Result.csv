@@ -1,0 +1,261 @@
+hotel,travel_agency,country,reservation_count,total_revenue
+HAC,Booking.com,FR,78,15824.519999999999
+HAC,Booking.com,RU,6,7624.75
+HAC,Expedia Group,FR,23,5584.1100000000015
+HAC,Booking.com,DE,10,4510.8300000000008
+HAC,Booking.com,GB,8,4033.77
+HAC,Booking.com,IN,2,3649.5499999999997
+HAC,Booking.com,SA,2,2898.0
+HAC,Booking.com,BE,11,2873.7199999999993
+HAC,Booking.com,MA,3,2865.85
+HAC,atel hotels network,FR,11,2740.2500000000005
+HAC,Booking.com,PL,5,2200.79
+HAC,Booking.com,CI,1,1972.35
+HAC,Booking.com,TR,2,1829.25
+HAC,Booking.com,ES,12,1793.7300000000002
+HAC,Booking.com,IT,5,1712.6799999999998
+HAC,Booking.com,CH,7,1676.91
+HAC,Booking.com,US,4,1254.8
+HAC,Booking.com,NL,4,1214.75
+HAC,Expedia Group,DE,3,1164.96
+HAC,Booking.com,DZ,1,1000.9
+HAC,Booking.com,AE,1,945.75
+HAC,Booking.com,ID,1,936.9
+HAC,Booking.com,NG,1,905.1
+HAC,Booking.com,AT,3,903.29
+HAC,Expedia Group,AT,1,647.62
+HAC,Expedia Group,BE,2,633.39
+HAC,Booking.com,JO,1,626.38
+HAC,atel hotels network,SE,1,576.45
+HAC,Booking.com,SN,1,492.45
+HAC,Booking.com,CZ,1,481.5
+HAC,Booking.com,BR,3,470.58000000000004
+HAC,Booking.com,LU,2,413.75
+HAC,Booking.com,DK,1,370.7
+HAC,Booking.com,IE,1,294.2
+HAC,Expedia Group,IT,2,267.74
+HAC,Booking.com,MX,1,150.25
+HAC,Booking.com,FI,1,139.3
+HAC,Booking.com,CN,1,126.8
+HAC,Expedia Group,ES,1,120.38
+LTH,Booking.com,CN,28,34569.33
+LTH,Booking.com,GB,36,32947.979999999996
+LTH,tripcom,CN,79,30632.560000000009
+LTH,Booking.com,SA,17,20965.089999999997
+LTH,Booking.com,FR,46,14685.32
+LTH,Booking.com,MA,10,13090.619999999999
+LTH,Expedia Group,US,12,11628.890000000001
+LTH,Booking.com,US,13,10699.08
+LTH,smartbox group limited,BE,14,7277.0399999999991
+LTH,Booking.com,BR,6,6791.35
+LTH,Booking.com,DE,13,6600.01
+LTH,Booking.com,TR,7,6478.11
+LTH,Booking.com,KW,4,5199.06
+LTH,Booking.com,BJ,3,5076.33
+LTH,Booking.com,AE,4,4699.97
+LTH,Booking.com,LB,3,4402.64
+LTH,Booking.com,IT,6,3969.23
+LTH,Booking.com,GH,3,2984.34
+LTH,Booking.com,QA,5,2932.3500000000004
+LTH,hotelbeds,CN,3,2857.04
+LTH,Booking.com,TH,4,2851.99
+LTH,Expedia Group,FR,8,2837.19
+LTH,Booking.com,RO,3,2817.9700000000003
+LTH,Booking.com,BE,6,2782.92
+LTH,Booking.com,PL,5,2578.83
+LTH,Booking.com,PT,4,2454.27
+LTH,Expedia Group,SV,2,2418.5699999999997
+LTH,Expedia Group,GB,5,2336.12
+LTH,Booking.com,CL,2,2173.43
+LTH,Booking.com,CI,1,2123.46
+LTH,staycation,FR,11,2032.32
+LTH,Expedia Group,AU,1,1968.89
+LTH,Booking.com,GN,1,1938.39
+LTH,Booking.com,NG,3,1938.31
+LTH,Booking.com,IR,1,1919.27
+LTH,Booking.com,HR,2,1816.7
+LTH,Booking.com,GA,1,1732.09
+LTH,hotelbeds,BR,4,1632.6
+LTH,tripcom,IT,3,1553.11
+LTH,Booking.com,CA,2,1517.8600000000001
+LTH,smartbox group limited,FR,3,1516.56
+LTH,Booking.com,HK,1,1491.92
+LTH,hotelbeds,KW,1,1480.41
+LTH,Booking.com,IN,2,1460.33
+LTH,infinite hotel,IL,2,1444.6
+LTH,Booking.com,AT,2,1427.62
+LTH,Booking.com,IE,2,1311.6399999999999
+LTH,infinite hotel,CN,2,1302.99
+LTH,hotelbeds,AT,1,1282.91
+LTH,Expedia Group,CN,2,1269.92
+LTH,Booking.com,RU,4,1265.24
+LTH,Expedia Group,MX,2,1231.08
+LTH,Booking.com,CO,2,1215.3899999999999
+LTH,infinite hotel,AE,1,1214.97
+LTH,hotelbeds,FI,2,1167.7800000000002
+LTH,HRS,JP,1,1138.18
+LTH,Agoda,JP,1,1086.1
+LTH,Booking.com,CG,1,1078.72
+LTH,smartbox group limited,CH,2,1024.14
+LTH,smartbox group limited,IT,2,1004.49
+LTH,Booking.com,NL,1,996.13
+LTH,hotelbeds,KR,1,971.87
+LTH,Booking.com,ES,2,929.74
+LTH,Booking.com,CH,2,851.25
+LTH,Agoda,US,1,849.98
+LTH,Booking.com,MQ,4,838.05
+LTH,Expedia Group,CH,1,793.53
+LTH,Booking.com,IL,1,784.39
+LTH,Agoda,CA,2,783.3900000000001
+LTH,infinite hotel,CA,1,759.11
+LTH,Booking.com,JE,1,752.43
+LTH,infinite hotel,US,2,745.25
+LTH,Agoda,TR,1,739.42
+LTH,Booking.com,VN,1,691.01
+LTH,HRS,IT,1,686.16
+LTH,weekendesk,BE,2,679.25
+LTH,sunhotels,FI,1,673.48
+LTH,Expedia Group,PL,1,672.58
+LTH,Expedia Group,SE,1,646.88
+LTH,hotelbeds,GB,1,641.63
+LTH,Expedia Group,PE,1,635.71
+LTH,Booking.com,GR,1,630.65
+LTH,Expedia Group,BR,1,593.99
+LTH,tripcom,FR,1,585.11
+LTH,infinite hotel,GE,1,572.93
+LTH,infinite hotel,LT,1,563.67
+LTH,Expedia Group,FI,1,552.9
+LTH,Booking.com,MX,2,546.14
+LTH,weekendesk,FR,1,512.73
+LTH,Expedia Group,NZ,2,512.62
+LTH,Agoda,KR,1,506.38
+LTH,Booking.com,ZA,1,506.26
+LTH,Booking.com,SG,1,500.3
+LTH,Agoda,GB,2,496.36
+LTH,smartbox group limited,NL,1,492.42
+LTH,Booking.com,SE,1,490.82
+LTH,hotelbeds,MA,1,486.94
+LTH,Booking.com,LU,2,465.65
+LTH,tripcom,GB,1,453.53
+LTH,Booking.com,OM,2,439.5
+LTH,Booking.com,GE,1,438.88
+LTH,hotelbeds,JP,1,399.56
+LTH,hotelbeds,IN,1,391.0
+LTH,dayusecom,FR,3,390.0
+LTH,Agoda,BR,1,387.71
+LTH,Agoda,AL,1,364.63
+LTH,infinite hotel,GR,1,356.44
+LTH,infinite hotel,RU,1,340.36
+LTH,hotelbeds,US,1,335.03
+LTH,infinite hotel,UA,1,333.67
+LTH,Booking.com,LV,1,328.22
+LTH,Agoda,CN,2,317.0
+LTH,infinite hotel,AT,1,259.7
+LTH,Agoda,FR,1,238.0
+LTH,Expedia Group,NO,1,226.77
+LTH,Booking.com,ID,1,218.63
+LTH,Booking.com,ET,1,217.64
+LTH,Booking.com,SY,1,214.78
+LTH,Expedia Group,IT,1,189.87
+LTH,Agoda,NL,1,179.88
+LTH,HRS,NL,1,175.76
+LTH,infinite hotel,FR,1,166.69
+LTH,Expedia Group,NL,1,156.58
+VSE,Booking.com,FR,47,16655.929999999997
+VSE,Booking.com,GB,32,16449.969999999998
+VSE,Booking.com,IT,16,9950.8
+VSE,staycation,FR,39,9656.6600000000035
+VSE,Booking.com,NL,18,7648.7900000000009
+VSE,Booking.com,DE,17,7453.3300000000008
+VSE,Booking.com,ES,11,6111.3
+VSE,Booking.com,BE,8,4406.34
+VSE,Expedia Group,GB,11,3908.04
+VSE,Expedia Group,US,11,3814.6800000000003
+VSE,Booking.com,US,6,3761.0600000000004
+VSE,Expedia Group,CN,6,2907.0600000000004
+VSE,Expedia Group,FR,8,2687.61
+VSE,Booking.com,TW,2,2639.6099999999997
+VSE,Booking.com,IE,5,2603.96
+VSE,Booking.com,CH,5,2512.62
+VSE,Booking.com,SI,3,2421.21
+VSE,dayusecom,FR,18,2220.0
+VSE,Booking.com,CN,3,2175.54
+VSE,Booking.com,KR,2,2125.04
+VSE,Expedia Group,JP,8,1815.23
+VSE,Booking.com,RO,2,1785.48
+VSE,Booking.com,PL,4,1696.17
+VSE,Expedia Group,CA,4,1625.54
+VSE,Booking.com,BR,4,1584.9
+VSE,Agoda,JP,2,1577.6399999999999
+VSE,Booking.com,PT,2,1561.92
+VSE,hotelbeds,US,2,1546.86
+VSE,Booking.com,CZ,3,1335.8899999999999
+VSE,Booking.com,LT,2,1315.71
+VSE,Expedia Group,BR,2,1294.73
+VSE,hotelbeds,MD,2,1275.67
+VSE,Expedia Group,NL,4,1229.7
+VSE,Agoda,NL,1,1211.63
+VSE,Booking.com,AT,2,1163.9099999999999
+VSE,Booking.com,IL,1,1144.11
+VSE,Expedia Group,PT,4,1079.02
+VSE,Agoda,RU,1,1078.76
+VSE,Booking.com,UA,3,1078.26
+VSE,Booking.com,JP,1,1029.72
+VSE,Booking.com,LV,1,1025.7
+VSE,Booking.com,NO,2,1021.41
+VSE,hotelbeds,BR,2,984.69
+VSE,hotelbeds,RU,1,923.88
+VSE,Agoda,KR,2,906.45
+VSE,world 2 meet,DE,1,834.86
+VSE,Booking.com,ZA,2,832.53
+VSE,Expedia Group,DE,2,812.73
+VSE,Booking.com,AL,2,742.2
+VSE,Booking.com,FI,1,729.39
+VSE,Booking.com,MG,1,718.65
+VSE,Booking.com,DZ,2,709.39
+VSE,Expedia Group,AU,2,648.64
+VSE,hotelbeds,GB,1,647.1
+VSE,Agoda,GB,3,632.05
+VSE,Booking.com,SE,2,598.03
+VSE,Booking.com,RU,2,586.26
+VSE,Booking.com,SA,2,580.86
+VSE,Agoda,ZA,1,576.62
+VSE,Booking.com,CO,1,548.55
+VSE,Agoda,GR,1,543.68
+VSE,Expedia Group,AF,1,540.46
+VSE,Agoda,NO,1,537.37
+VSE,Expedia Group,BE,3,530.33999999999992
+VSE,lastminutecom,AT,1,516.23
+VSE,Booking.com,RS,1,515.84
+VSE,Expedia Group,KR,1,485.16
+VSE,Booking.com,TR,1,477.12
+VSE,Expedia Group,RU,1,472.09
+VSE,Booking.com,OM,1,460.2
+VSE,Agoda,BH,1,443.28
+VSE,Agoda,FR,1,436.74
+VSE,hotelbreak,FR,2,431.52
+VSE,Booking.com,BJ,1,419.7
+VSE,airbnb,MX,1,405.45
+VSE,Expedia Group,MX,1,382.83
+VSE,Booking.com,GR,1,380.7
+VSE,airbnb,GB,1,379.44
+VSE,Expedia Group,IT,1,356.58
+VSE,odigeo edreams,GB,1,348.42
+VSE,Booking.com,HR,1,346.8
+VSE,Expedia Group,KZ,2,338.36
+VSE,ctrip,ES,1,334.68
+VSE,Booking.com,IR,1,301.11
+VSE,airbnb,US,1,297.5
+VSE,Expedia Group,IE,1,280.75
+VSE,Booking.com,MT,1,243.92
+VSE,Booking.com,MZ,1,217.23
+VSE,hotelbeds,PT,1,209.94
+VSE,Booking.com,SY,1,201.75
+VSE,airbnb,BE,1,170.6
+VSE,Expedia Group,CH,1,166.88
+VSE,hotelbeds,FR,1,166.74
+VSE,Agoda,MX,1,159.5
+VSE,lastminutecom,GB,1,129.92
+VSE,Agoda,CN,1,125.17
+VSE,airbnb,AD,1,115.6
+VSE,airbnb,DE,1,101.74
